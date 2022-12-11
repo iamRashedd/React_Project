@@ -11,6 +11,8 @@ import Logout from './Components/Seller/Logout';
 import Contact from './Components/Seller/Contact';
 import PostDetails from './Components/Seller/PostDetails';
 import Register from './Components/Seller/Register';
+import SellerOrders from './Components/Seller/SellerOrders';
+import SellerBids from './Components/Seller/SellerBids';
 
 
 import reportWebVitals from './reportWebVitals';
@@ -31,6 +33,8 @@ root.render(
         <Route path='/login' element={<Login/>} />
         <Route path='/sellerlogout' element={<Logout/>} />
         <Route path='/sellerregister' element={<Register/>} />
+        <Route path='/sellerorders' element={<SellerOrders/>} />
+        <Route path='/sellerbids' element={<SellerBids/>} />
         
         
       </Routes>

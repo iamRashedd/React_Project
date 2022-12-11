@@ -51,8 +51,7 @@ const Posts = () => {
         <div>
         <MDBContainer fluid className="my-5">
       <MDBRow>
-            <Table striped bordered hover>
-                
+              
                     {posts.map(post=>(
                         /*
                         <tr key={post.id}>
@@ -133,7 +132,7 @@ const Posts = () => {
     
                     ))}
                 
-            </Table>
+           
             </MDBRow>
             </MDBContainer>
         </div>

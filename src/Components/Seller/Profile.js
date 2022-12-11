@@ -14,7 +14,7 @@ const Profile = () => {
             navigate('/login');
         }
         
-        axiosConfig.get("/sellerprofile/{seller.id}")
+        axiosConfig.get("/sellerprofile/1")
         .then(resp=>{
             console.log(resp.data);
             setPosts(resp.data);
